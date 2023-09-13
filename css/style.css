@@ -1,0 +1,26 @@
+/*Importacion de tipografia*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;400;900&display=swap');
+/* slector universal */ 
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif  ;
+}
+/*selector por etiqueta*/
+span{
+color: rgb(228, 4, 4);
+}
+/*selector por id*/
+#option_one,  #option_three{
+    font-weight: 900;
+    background-color: blue;
+    margin: 20px;
+}
+/*selector por clase*/
+.options_groups{
+    background-color: black;
+}
+/*selector por atrivuto*/ 
+[disabled]{
+    background-color: red;
+}
