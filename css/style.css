@@ -52,15 +52,32 @@ span {
 
 #box_father {
     background-color: #000;
-    width: 60%;
-    height: 200px;
+    width: 70%;
+    height: 300px;
     background-image: url(https://t1.uc.ltmcdn.com/es/posts/4/9/4/red_nose_pitbull_45494_7_600.webp);
     background-position: center;
     background-size: cover;
 }
 
-#box_model {
+/*#box_model {
     background-color: aqua;
     width: 50%;
     height: 50%;
+}*/
+/*Aplicacion de media queris*/
+@media (min-width:800px) and (max-width:1200px) {
+    body{
+        background-color: rgb(150, 31, 31);
+    }
+    #title_blox{
+        text-align: left;
+    }
+}
+@media (max-width:799px){
+    body{
+    background-image: url(https://www.animalfiel.com/wp-content/uploads/2020/07/tipos-de-pitbull.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
 }
